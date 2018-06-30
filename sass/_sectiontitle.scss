@@ -1,0 +1,31 @@
+@import 'general';
+
+.section-title {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 80px;
+
+    h2 {
+        font-size: 40px;
+        @include clear-mp;
+        padding-bottom: 18px;
+        text-transform: uppercase;
+    }
+
+    p {
+        font-family: $archivo;
+        @include clear-mp;
+    }
+}
+
+@media (max-width: 969px) {
+    .section-title {
+        padding-top: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-title {
+        padding-top: 30px;
+    }
+}

@@ -1,0 +1,42 @@
+@import 'general';
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    .footer-media {
+        text-align: center;
+
+        .icon-btn {
+            background-color: black;
+            color: white;
+            height: 41px;
+            width: 41px;
+            border: none;
+            border-radius: 50%;
+            font-size: 20px;
+            cursor: pointer;
+            transition-duration: 1s;
+            margin: 0 4px;
+        }
+    
+        .icon-btn:hover {
+            transform: scale(1.10);
+            background-color: $yellow;
+        }
+
+    }
+
+    p {
+        padding-top: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 969px) {
+    
+}
+
+@media (max-width: 768px) {
+    
+}

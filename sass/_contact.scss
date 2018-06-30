@@ -1,0 +1,46 @@
+@import 'general';
+
+.contact {
+    background-color: $footer;
+    padding-bottom: 155px;
+
+    .section-title {
+        h2 {
+            color: white;
+        }
+
+        p {
+            color: #777777;
+        }
+    }
+
+    button {
+        @include button-style($yellow, white);
+    }
+
+    .contact-inputs {
+        max-width: 100%;
+        width: 455px;
+        height: 51px;
+        margin: 0 auto;
+        padding-left: 20px;
+        margin-bottom: 30px;
+    }
+
+    .contact-oneInput {
+        max-width: 100%;
+        width: 455px;
+        height: 210px;
+        padding-left: 20px;
+        padding-top: 20px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 969px) {
+    
+}
+
+@media (max-width: 768px) {
+    
+}

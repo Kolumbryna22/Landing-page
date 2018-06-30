@@ -1,0 +1,33 @@
+@import 'general';
+
+.navigation {
+    position: fixed;
+    z-index: 1;
+
+    img {
+        float: left;
+        padding-top: 20px;
+    }
+
+    .navigation-list {
+        float: right;
+        list-style-type: none;
+        @include clear-mp;
+    }
+
+    .navigation-list-item {
+        padding-top: 20px;
+        display: inline-block;
+    }
+
+    a {
+        font-size: $size-p;
+        display: block;
+        padding: 0 10px;
+        @include a-style(white);
+
+        &:hover {
+            color: $yellow;
+        }
+    }
+}

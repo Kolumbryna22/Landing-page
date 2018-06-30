@@ -1,0 +1,51 @@
+@import 'general';
+
+.team {
+    background-color: $grey;
+
+    h2 {
+        @include clear-mp;
+        padding-top: 26px;
+        padding-bottom: 5px;
+        font-size: 18px;
+    }
+
+    p {
+        @include clear-mp;
+        font-family: $archivo;
+        padding-bottom: 14px;
+    }
+
+    .icon-btn {
+        background-color: $grey;
+        height: 41px;
+        width: 41px;
+        border: 3px solid black;
+        border-radius: 50%;
+        font-size: 20px;
+        cursor: pointer;
+        transition-duration: 1s;
+        margin: 0 4px;
+    }
+
+    .icon-btn:hover {
+        transform: scale(1.10);
+        color: $yellow;
+        border-color: $yellow;
+    }
+
+    .team-oneText {
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 50px 0 117px;
+    }
+}
+
+@media (max-width: 969px) {
+    
+}
+
+@media (max-width: 768px) {
+    
+}

@@ -1,0 +1,44 @@
+@import 'general';
+
+.services {
+    padding-bottom: 118px;
+
+    .circle {
+        margin: 0 auto;
+        width: 67px;
+        height: 67px;
+        @include circle-style($yellow);
+
+        img {
+            padding-top: 12px;
+        }
+    }
+
+    h2 {
+        margin-top: 0;
+        padding-top: 27px;
+    }
+
+    .row p {
+        margin: 0 auto;
+        max-width: 280px;
+        line-height: $line;
+        font-family: $archivo;
+    }
+}
+
+@media (max-width: 969px) {
+    .services {
+        .row p {
+            padding-bottom: 50px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .services {
+        .row p {
+            padding-bottom: 50px;
+        }
+    }
+}

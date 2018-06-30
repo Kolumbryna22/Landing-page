@@ -1,0 +1,76 @@
+@import 'general';
+
+.main {
+    position: relative;
+    text-align: center;
+
+    img {
+        width: 100%;
+        filter: brightness(50%);
+    }
+    
+    .main-text {
+        width: 100%;
+        position: absolute;
+        top: 26%;
+        color: white;
+
+        h2 {
+            font-size: 48px;
+            font-family: $archivo;
+            letter-spacing: 1.15px;
+            margin-bottom: 20px;
+            @include clear-mp;
+            padding-bottom: 52px;
+        }
+
+        p {
+            font-size: 75px;
+            line-height: 38px;
+            text-transform: uppercase;
+            @include clear-mp;
+            padding-bottom: 60px;
+        }
+    }
+
+    button {
+        @include button-style($yellow, white);
+    }
+}
+
+@media (max-width: 969px) {
+    .main {
+        img {
+            min-height: 550px;
+        }
+
+        .main-text {
+            h2 {
+                font-size: 35px;
+            }
+
+            p {
+                font-size: 45px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .main {
+        img {
+            min-height: 500px;
+        }
+
+        .main-text {
+            h2 {
+                padding-top: 45px;
+                font-size: 25px;
+            }
+
+            p {
+                font-size: 35px;
+            }
+        }
+    }
+}
