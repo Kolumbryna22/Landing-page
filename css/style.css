@@ -887,12 +887,12 @@ body {
   background-color: #f7f7f7; }
   .portfolio .row {
     padding-bottom: 49px; }
-  .portfolio .ourPortfolio-card {
+  .portfolio .portfolio-card {
     margin: 0 auto;
     width: 291px;
     height: 394px;
     background-color: white; }
-    .portfolio .ourPortfolio-card h2 {
+    .portfolio .portfolio-card h2 {
       margin-top: 0;
       margin-bottom: 0;
       padding-top: 0;
@@ -900,7 +900,7 @@ body {
       padding-top: 20px;
       padding-bottom: 7px;
       font-size: 18px; }
-    .portfolio .ourPortfolio-card p {
+    .portfolio .portfolio-card p {
       margin-top: 0;
       margin-bottom: 0;
       padding-top: 0;
@@ -908,16 +908,9 @@ body {
       font-family: "Archivo", sans-serif; }
 
 @media (max-width: 969px) {
-  [class*=col-] {
+  .portfolio [class*=col-] {
     padding-bottom: 50px; }
-
-  .row {
-    padding-bottom: 0; } }
-@media (max-width: 768px) {
-  [class*=col-] {
-    padding-bottom: 50px; }
-
-  .row {
+  .portfolio .row {
     padding-bottom: 0; } }
 * {
   box-sizing: border-box; }

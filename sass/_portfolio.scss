@@ -7,7 +7,7 @@
         padding-bottom: 49px;
     }
 
-    .ourPortfolio-card {
+    .portfolio-card {
         margin: 0 auto;
         width: 291px;
         height: 394px;
@@ -28,21 +28,13 @@
 }
 
 @media (max-width: 969px) {
-    [class*=col-] {
-        padding-bottom: 50px;
-    }
+    .portfolio {
+        [class*=col-] {
+            padding-bottom: 50px;
+        }
 
-    .row {
-        padding-bottom: 0; //nie wiem dlaczego nie działa
-    }
-}
-
-@media (max-width: 768px) {
-    [class*=col-] {
-        padding-bottom: 50px;
-    }
-
-    .row {
-        padding-bottom: 0;
+        .row {
+            padding-bottom: 0;
+        }
     }
 }
