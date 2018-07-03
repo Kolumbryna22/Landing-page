@@ -356,6 +356,13 @@ body {
     .navigation a:hover {
       color: #fed136; }
 
+@media (max-width: 588px) {
+  .navigation img {
+    float: none; }
+  .navigation .navigation-list {
+    float: none; }
+  .navigation .navigation-list-item {
+    padding: 10px 0 10px; } }
 * {
   box-sizing: border-box; }
 

@@ -31,3 +31,19 @@
         }
     }
 }
+
+@media (max-width: 588px) {
+    .navigation {
+        img {
+            float: none;
+        }
+
+        .navigation-list {
+            float: none;
+        }
+
+        .navigation-list-item {
+            padding: 10px 0 10px;
+        }
+    }
+}
