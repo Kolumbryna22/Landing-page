@@ -883,16 +883,16 @@ body {
 
   .disabled {
     display: none; } }
-.ourPortfolio {
+.portfolio {
   background-color: #f7f7f7; }
-  .ourPortfolio .row {
+  .portfolio .row {
     padding-bottom: 49px; }
-  .ourPortfolio .ourPortfolio-card {
+  .portfolio .ourPortfolio-card {
     margin: 0 auto;
     width: 291px;
     height: 394px;
     background-color: white; }
-    .ourPortfolio .ourPortfolio-card h2 {
+    .portfolio .ourPortfolio-card h2 {
       margin-top: 0;
       margin-bottom: 0;
       padding-top: 0;
@@ -900,7 +900,7 @@ body {
       padding-top: 20px;
       padding-bottom: 7px;
       font-size: 18px; }
-    .ourPortfolio .ourPortfolio-card p {
+    .portfolio .ourPortfolio-card p {
       margin-top: 0;
       margin-bottom: 0;
       padding-top: 0;
