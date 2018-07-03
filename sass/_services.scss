@@ -1,8 +1,6 @@
 @import 'general';
 
 .services {
-    padding-bottom: 118px;
-
     .circle {
         margin: 0 auto;
         width: 67px;
@@ -24,6 +22,7 @@
         max-width: 280px;
         line-height: $line;
         font-family: $archivo;
+        padding-bottom: 118px;
     }
 }
 

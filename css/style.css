@@ -707,24 +707,23 @@ body {
 
   .disabled {
     display: none; } }
-.services {
+.services .circle {
+  margin: 0 auto;
+  width: 67px;
+  height: 67px;
+  border: 3px solid #fed136;
+  border-radius: 50%; }
+  .services .circle img {
+    padding-top: 12px; }
+.services h2 {
+  margin-top: 0;
+  padding-top: 27px; }
+.services .row p {
+  margin: 0 auto;
+  max-width: 280px;
+  line-height: 22px;
+  font-family: "Archivo", sans-serif;
   padding-bottom: 118px; }
-  .services .circle {
-    margin: 0 auto;
-    width: 67px;
-    height: 67px;
-    border: 3px solid #fed136;
-    border-radius: 50%; }
-    .services .circle img {
-      padding-top: 12px; }
-  .services h2 {
-    margin-top: 0;
-    padding-top: 27px; }
-  .services .row p {
-    margin: 0 auto;
-    max-width: 280px;
-    line-height: 22px;
-    font-family: "Archivo", sans-serif; }
 
 @media (max-width: 969px) {
   .services .row p {
