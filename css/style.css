@@ -66,7 +66,43 @@ body {
     width: 91.66%; }
 
   .col-l-12 {
-    width: 100%; } }
+    width: 100%; }
+
+  .col-offset-0 {
+    margin-left: 0; }
+
+  .col-offset-1 {
+    margin-left: 8.33%; }
+
+  .col-offset-2 {
+    margin-left: 16.66%; }
+
+  .col-offset-3 {
+    margin-left: 25%; }
+
+  .col-offset-4 {
+    margin-left: 33.33%; }
+
+  .col-offset-5 {
+    margin-left: 41.66%; }
+
+  .col-offset-6 {
+    margin-left: 50%; }
+
+  .col-offset-7 {
+    margin-left: 58.33%; }
+
+  .col-offset-8 {
+    margin-left: 66.66%; }
+
+  .col-offset-9 {
+    margin-left: 75%; }
+
+  .col-offset-10 {
+    margin-left: 83.33%; }
+
+  .col-offset-11 {
+    margin-left: 91.66%; } }
 @media (max-width: 969px) {
   .col-m-1 {
     width: 8.33%; }
@@ -102,10 +138,7 @@ body {
     width: 91.66%; }
 
   .col-m-12 {
-    width: 100%; }
-
-  .disabled {
-    display: none; } }
+    width: 100%; } }
 @media (max-width: 768px) {
   .col-s-1 {
     width: 8.33%; }
@@ -143,8 +176,18 @@ body {
   .col-s-12 {
     width: 100%; }
 
-  .disabled {
-    display: none; } }
+  .flex-container {
+    display: flex;
+    flex-direction: column; }
+
+  .flex-first {
+    order: 2; }
+
+  .flex-second {
+    order: 1; }
+
+  .flex-item {
+    width: 100%; } }
 .section-title {
   text-align: center;
   padding-top: 120px;
@@ -344,11 +387,13 @@ body {
   height: 170px;
   width: 170px;
   margin: 0 auto; }
+  .aboutUs .aboutUs-image img {
+    width: 100%; }
   .aboutUs .aboutUs-image::after {
     content: '';
     display: block;
     width: 3px;
-    height: 110px;
+    height: 118px;
     background-color: #f1f1f1;
     margin: 0 auto;
     transform: translate(0, -5px); }
@@ -367,18 +412,22 @@ body {
     font-size: 18px; }
 
 @media (max-width: 969px) {
-  .aboutUs-image::after {
+  .aboutUs .aboutUs-image::after {
     display: none; } }
 @media (max-width: 768px) {
-  .aboutUs .aboutUs-image::after {
-    display: none; }
+  .aboutUs .aboutUs-image {
+    margin-bottom: 10px; }
+    .aboutUs .aboutUs-image::after {
+      display: none; }
 
   h2,
   p {
-    text-align: center; } }
+    margin: 0 auto;
+    text-align: center;
+    max-width: 450px; } }
 .team {
   background-color: #f7f7f7; }
-  .team h2 {
+  .team .container h2 {
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 0;
@@ -386,7 +435,7 @@ body {
     padding-top: 26px;
     padding-bottom: 5px;
     font-size: 18px; }
-  .team p {
+  .team .container p {
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 0;

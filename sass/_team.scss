@@ -1,21 +1,23 @@
 .team {
-    background-color: $grey;
+    background-color: $background-primary-color;
 
-    h2 {
-        @include clear-mp;
-        padding-top: 26px;
-        padding-bottom: 5px;
-        font-size: 18px;
-    }
+    .container {
+        h2 {
+            @include clear-mp;
+            padding-top: 26px;
+            padding-bottom: 5px;
+            font-size: 18px;
+        }
 
-    p {
-        @include clear-mp;
-        font-family: $archivo;
-        padding-bottom: 14px;
+        p {
+            @include clear-mp;
+            font-family: $archivo;
+            padding-bottom: 14px;
+        }
     }
 
     .icon-btn {
-        background-color: $grey;
+        background-color: $background-primary-color;
         height: 41px;
         width: 41px;
         border: 3px solid black;
