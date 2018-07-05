@@ -419,9 +419,8 @@ body {
     margin-bottom: 10px; }
     .aboutUs .aboutUs-image::after {
       display: none; }
-
-  h2,
-  p {
+  .aboutUs h2,
+  .aboutUs p {
     margin: 0 auto;
     text-align: center;
     max-width: 450px; } }
