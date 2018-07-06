@@ -359,7 +359,7 @@ body {
     padding-bottom: 50px; }
   .portfolio .row {
     padding-bottom: 0; } }
-.aboutUs p {
+.about p {
   font-family: "Archivo", sans-serif;
   line-height: 22px;
   margin-top: 0;
@@ -367,29 +367,29 @@ body {
   padding-top: 0;
   padding-bottom: 0;
   padding-top: 12px; }
-.aboutUs h2 {
+.about h2 {
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 0;
   padding-bottom: 0; }
-  .aboutUs h2:first-of-type {
+  .about h2:first-of-type {
     padding-bottom: 3px; }
-.aboutUs img {
+.about img {
   border: 7px solid #f1f1f1;
   border-radius: 50%; }
-.aboutUs .row {
+.about .row {
   padding-bottom: 105px; }
-  .aboutUs .row div:first-child {
+  .about .row div:first-child {
     text-align: right; }
-  .aboutUs .row div:last-child {
+  .about .row div:last-child {
     text-align: left; }
-.aboutUs .aboutUs-image {
+.about .about-image {
   height: 170px;
   width: 170px;
   margin: 0 auto; }
-  .aboutUs .aboutUs-image img {
+  .about .about-image img {
     width: 100%; }
-  .aboutUs .aboutUs-image::after {
+  .about .about-image::after {
     content: '';
     display: block;
     width: 3px;
@@ -397,7 +397,7 @@ body {
     background-color: #f1f1f1;
     margin: 0 auto;
     transform: translate(0, -5px); }
-.aboutUs .aboutUs-continue {
+.about .about-continue {
   height: 170px;
   width: 170px;
   margin: 0 auto;
@@ -406,21 +406,21 @@ body {
   color: white;
   border: 7px solid #f7f7f7;
   border-radius: 50%; }
-  .aboutUs .aboutUs-continue h2 {
+  .about .about-continue h2 {
     padding-top: 33px;
     text-align: center;
     font-size: 18px; }
 
-@media (max-width: 969px) {
-  .aboutUs .aboutUs-image::after {
+@media (max-width: 975px) {
+  .about .about-image::after {
     display: none; } }
 @media (max-width: 768px) {
-  .aboutUs .aboutUs-image {
+  .about .about-image {
     margin-bottom: 10px; }
-    .aboutUs .aboutUs-image::after {
+    .about .about-image::after {
       display: none; }
-  .aboutUs h2,
-  .aboutUs p {
+  .about h2,
+  .about p {
     margin: 0 auto;
     text-align: center;
     max-width: 450px; } }

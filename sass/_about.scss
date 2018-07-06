@@ -1,4 +1,4 @@
-.aboutUs {
+.about {
     p {
         font-family: $archivo;
         line-height: $line-height;
@@ -32,7 +32,7 @@
         }
     }
 
-    .aboutUs-image {
+    .about-image {
         height: 170px;
         width: 170px;
         margin: 0 auto;
@@ -52,7 +52,7 @@
         }
     }
 
-    .aboutUs-continue {
+    .about-continue {
         height: 170px;
         width: 170px;
         margin: 0 auto;
@@ -70,9 +70,9 @@
     }
 }
 
-@media (max-width: 969px) {
-    .aboutUs {
-        .aboutUs-image {
+@media (max-width: 975px) {
+    .about {
+        .about-image {
             &::after {
                 display: none;
             }
@@ -81,8 +81,8 @@
 }
 
 @media (max-width: 768px) {
-    .aboutUs {
-        .aboutUs-image {
+    .about {
+        .about-image {
             margin-bottom: 10px;
 
             &::after {
