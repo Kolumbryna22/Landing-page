@@ -34,3 +34,20 @@
         font-size: 16px;
     }
 }
+
+@media (max-width: 970px) {
+    .contact {
+        .contact-oneInput {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .contact {
+        button {
+            max-width: 100%;
+            width: 455px;
+        }
+    }
+}

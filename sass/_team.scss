@@ -41,3 +41,11 @@
         padding: 50px 10px 117px;
     }
 }
+
+@media (max-width: 768px) {
+    .team {
+        img {
+            padding-top: 40px;
+        }
+    }
+}

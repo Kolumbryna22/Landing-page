@@ -215,7 +215,9 @@ body {
     padding-top: 30px; } }
 .navigation {
   position: fixed;
-  z-index: 1; }
+  z-index: 1;
+  width: 100%;
+  padding: 0 20px 10px; }
   .navigation img {
     float: left;
     padding-top: 20px; }
@@ -290,6 +292,10 @@ body {
       background-color: white;
       border: 2px solid #fed136;
       color: #fed136; }
+    @media (max-width: 768px) {
+      .main button button {
+        max-width: 100%;
+        width: 455px; } }
 
 @media (max-width: 969px) {
   .main img {
@@ -305,7 +311,11 @@ body {
     padding-top: 45px;
     font-size: 25px; }
   .main .main-text p {
-    font-size: 35px; } }
+    font-size: 35px; }
+  .main button {
+    max-width: 100%;
+    width: 455px;
+    margin: 0 20px; } }
 .services .circle {
   margin: 0 auto;
   width: 67px;
@@ -410,13 +420,16 @@ body {
     padding-top: 33px;
     text-align: center;
     font-size: 18px; }
+.about span {
+  width: 100%;
+  display: block; }
 
 @media (max-width: 969px) {
   .about .about-image::after {
     display: none; } }
 @media (max-width: 768px) {
   .about .about-image {
-    margin-bottom: 10px; }
+    margin-bottom: 20px; }
     .about .about-image::after {
       display: none; }
   .about h2,
@@ -461,6 +474,9 @@ body {
     text-align: center;
     padding: 50px 10px 117px; }
 
+@media (max-width: 768px) {
+  .team img {
+    padding-top: 40px; } }
 .contact {
   background-color: #222222;
   padding-bottom: 155px; }
@@ -483,6 +499,10 @@ body {
       background-color: white;
       border: 2px solid #fed136;
       color: #fed136; }
+    @media (max-width: 768px) {
+      .contact button button {
+        max-width: 100%;
+        width: 455px; } }
   .contact .contact-inputs {
     max-width: 100%;
     width: 455px;
@@ -498,6 +518,13 @@ body {
     padding-top: 20px;
     font-size: 16px; }
 
+@media (max-width: 970px) {
+  .contact .contact-oneInput {
+    margin-bottom: 30px; } }
+@media (max-width: 768px) {
+  .contact button {
+    max-width: 100%;
+    width: 455px; } }
 footer {
   padding-top: 20px;
   padding-bottom: 20px; }

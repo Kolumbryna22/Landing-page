@@ -1,6 +1,6 @@
 # Landing-page
 
-# Aby uruchomić stronę sklonuj repozytorium
+# To open page clone repository
 # git clone https://github.com/Kolumbryna22/Landing-page.git
 #
-# Następnie otwórz plik index.html w swojej przeglądarce
+# Then open index.html in your browser

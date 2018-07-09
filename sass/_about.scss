@@ -68,6 +68,11 @@
             font-size: 18px;
         }
     }
+
+    span {
+        width: 100%;
+        display: block;
+    }
 }
 
 @media (max-width: 969px) {
@@ -83,7 +88,7 @@
 @media (max-width: 768px) {
     .about {
         .about-image {
-            margin-bottom: 10px;
+            margin-bottom: 20px;
 
             &::after {
                 display: none;

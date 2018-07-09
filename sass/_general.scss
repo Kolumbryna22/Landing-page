@@ -163,6 +163,13 @@ body {
     border: 2px solid $back-color;
     color: $back-color;
   }
+
+  @media (max-width: 768px) {
+      button {
+          max-width: 100%;
+          width: 455px;
+      }
+  }
 }
 
 @mixin circle-style($color) {
