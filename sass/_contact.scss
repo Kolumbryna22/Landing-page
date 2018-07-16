@@ -13,6 +13,7 @@
     }
 
     button {
+        margin-top: 20px;
         @include button-style($yellow, white);
     }
 
@@ -25,7 +26,7 @@
         margin-bottom: 30px;
     }
 
-    .contact-oneInput {
+    .contact-one-input {
         max-width: 100%;
         width: 455px;
         height: 210px;

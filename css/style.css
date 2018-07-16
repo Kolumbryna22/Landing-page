@@ -209,10 +209,10 @@ body {
 
 @media (max-width: 969px) {
   .section-title {
-    padding-top: 60px; } }
+    padding-top: 90px; } }
 @media (max-width: 768px) {
   .section-title {
-    padding-top: 30px; } }
+    padding-top: 60px; } }
 .navigation {
   position: fixed;
   z-index: 1;
@@ -239,14 +239,38 @@ body {
     text-decoration: none; }
     .navigation a:hover {
       color: #fed136; }
+  .navigation .button-hamburger {
+    background-color: #777777;
+    padding: 5px;
+    font-size: 30px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: rotate(90deg);
+    display: none;
+    position: absolute;
+    top: 5px;
+    right: 15px; }
 
 @media (max-width: 588px) {
-  .navigation img {
-    float: none; }
-  .navigation .navigation-list {
-    float: none; }
-  .navigation .navigation-list-item {
-    padding: 10px 0 10px; } }
+  .navigation {
+    text-align: center;
+    padding: 0; }
+    .navigation img {
+      float: none; }
+    .navigation .navigation-list {
+      display: none;
+      float: none;
+      padding: 10px 0 20px;
+      margin-top: 10px;
+      background-color: #222222; }
+    .navigation .navigation-list-item {
+      padding: 10px 0 10px;
+      display: block;
+      width: 100%; }
+    .navigation .button-hamburger {
+      display: block; } }
 .main {
   position: relative;
   text-align: center; }
@@ -485,6 +509,7 @@ body {
   .contact .section-title p {
     color: #777777; }
   .contact button {
+    margin-top: 20px;
     background-color: #fed136;
     color: white;
     width: 200px;
@@ -510,7 +535,7 @@ body {
     margin: 0 auto;
     padding-left: 20px;
     margin-bottom: 30px; }
-  .contact .contact-oneInput {
+  .contact .contact-one-input {
     max-width: 100%;
     width: 455px;
     height: 210px;
