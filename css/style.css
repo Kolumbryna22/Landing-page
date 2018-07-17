@@ -253,7 +253,7 @@ body {
     top: 5px;
     right: 15px; }
 
-@media (max-width: 588px) {
+@media (max-width: 688px) {
   .navigation {
     text-align: center;
     padding: 0; }
@@ -328,18 +328,19 @@ body {
     font-size: 35px; }
   .main .main-text p {
     font-size: 45px; } }
-@media (max-width: 768px) {
+@media (max-width: 688px) {
   .main img {
     min-height: 500px; }
-  .main .main-text h2 {
-    padding-top: 45px;
-    font-size: 25px; }
-  .main .main-text p {
-    font-size: 35px; }
-  .main button {
-    max-width: 100%;
-    width: 455px;
-    margin: 0 20px; } }
+  .main .main-text {
+    padding: 0 20px; }
+    .main .main-text h2 {
+      padding-top: 45px;
+      font-size: 25px; }
+    .main .main-text p {
+      font-size: 35px; }
+    .main .main-text button {
+      width: 100%;
+      max-width: 455px; } }
 .services .circle {
   margin: 0 auto;
   width: 67px;

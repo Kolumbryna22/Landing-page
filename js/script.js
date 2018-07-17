@@ -3,7 +3,7 @@
 
     var button = document.getElementById('hamburger');
     var nav = document.getElementById('nav');
-    var change = false;
+    var change = true;
 
     window.addEventListener('scroll', function() {
         var navigate = document.getElementById('navigate');
@@ -11,7 +11,7 @@
     });
 
     window.addEventListener('resize', function(){
-        if (window.innerWidth > 588) {
+        if (window.innerWidth > 688) {
             nav.style.display = "block";
             change = false;
         }
