@@ -17,6 +17,7 @@
         }
         else {
             nav.style.display = "none";
+            change = true;
         }
     })
     
