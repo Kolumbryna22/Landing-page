@@ -1,6 +1,10 @@
 # Landing-page
 
-# To open page clone repository
+# clone repository
 # git clone https://github.com/Kolumbryna22/Landing-page.git
-#
-# Then open index.html in your browser
+
+# to instal packages run:
+# npm run init-project
+
+#to initialize development mode run:
+# npm run watch
