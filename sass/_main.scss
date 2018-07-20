@@ -32,7 +32,7 @@
     }
 
     button {
-        @include button-style($yellow, white);
+        @include button-style($button-color, white);
     }
 }
 

@@ -3,7 +3,7 @@
         margin: 0 auto;
         width: 67px;
         height: 67px;
-        @include circle-style($yellow);
+        @include circle-style($button-color);
 
         img {
             padding-top: 12px;

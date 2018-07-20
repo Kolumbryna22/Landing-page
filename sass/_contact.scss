@@ -14,7 +14,7 @@
 
     button {
         margin-top: 20px;
-        @include button-style($yellow, white);
+        @include button-style($button-color, white);
     }
 
     .contact-inputs {

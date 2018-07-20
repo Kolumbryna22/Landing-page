@@ -28,7 +28,7 @@
         @include a-style(white);
 
         &:hover {
-            color: $yellow;
+            color: $button-color;
         }
     }
 
