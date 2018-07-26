@@ -47,6 +47,11 @@
         top: 15px;
         right: 15px;
         padding-bottom: 4px;
+
+        span {
+            position: relative;
+            left: -1px;
+        }
     }
 }
 

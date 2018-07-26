@@ -299,6 +299,11 @@ body {
   padding-bottom: 4px;
 }
 
+.navigation .button-hamburger span {
+  position: relative;
+  left: -1px;
+}
+
 @media (max-width: 688px) {
   .navigation {
     text-align: center;
