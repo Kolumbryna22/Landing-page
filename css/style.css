@@ -266,7 +266,7 @@ body {
 }
 
 .navigation .navigation-list-item {
-  padding-top: 20px;
+  padding-top: 25px;
   display: inline-block;
 }
 
@@ -284,24 +284,27 @@ body {
 
 .navigation .button-hamburger {
   background-color: #777777;
-  font-size: 25px;
-  color: white;
   border: none;
   border-radius: 5px;
   height: 35px;
-  width: 32px;
+  width: 35px;
   cursor: pointer;
-  transform: rotate(90deg);
   display: none;
   position: absolute;
   top: 15px;
   right: 15px;
-  padding-bottom: 4px;
 }
 
 .navigation .button-hamburger span {
-  position: relative;
-  left: -1px;
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px 5px 5px -1px;
+  background-color: white;
+}
+
+.navigation .button-hamburger span:first-child {
+  margin-top: 3px;
 }
 
 @media (max-width: 688px) {
